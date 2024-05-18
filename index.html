@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Css -->
+    <link
+      rel="stylesheet"
+      href="./css/build.css" />
+    <!-- Google Font -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <section
+      class="min-h-screen w-full bg-cover bg-blend-overlay bg-[#726b66] bg-center"
+      style="background-image: url('./img/1.JPG')">
+      <div class="container py-10 text-center">
+        <h2 class="font-parisienne font-bold text-white text-7xl">N&E</h2>
+        <div class="sm:mt-36 mt-20 text-center">
+          <h2 class="font-poppins text-white text-2xl sm:text-5xl">The Wedding of</h2>
+          <h1 class="font-poppins text-white font-bold text-7xl sm:text-9xl my-4">
+            Nofi <br class="sm:hidden" />& <br class="sm:hidden" />
+            ervan
+          </h1>
+          <h2 class="font-poppins font-light text-white text-lg">Minggu, 30 Juni 2024</h2>
+        </div>
+        <audio
+          id="myAudio"
+          src="./music/intro.mp3"
+          autoplay>
+          Your browser does not support the audio tag.
+        </audio>
+        <button
+          id="playButton"
+          class="bg-white p-4 rounded-2xl mt-10">
+          Pause
+        </button>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Profile -->
+    <section class="min-h-screen w-full bg-[#e2dedb]">
+      <div class="container py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+        <!-- Woman Card -->
+        <div class="h-auto w-full flex items-center">
+          <img
+            class="w-40 sm:w-64"
+            src="./img/2.JPG"
+            alt="" />
+          <div class="p-4 md:p-2 text-center w-full">
+            <h3 class="text-lg font-bold text-gray-800">Nofi Maharani Dewi</h3>
+            <p class="mt-1 text-gray-500">Putri dari <br />Bapak Engkos & Ibu Rasih</p>
+          </div>
+        </div>
+        <!-- Man Card -->
+        <div class="h-auto w-full flex items-center">
+          <div class="p-4 md:p-2 text-center w-full">
+            <h3 class="text-lg font-bold text-gray-800">Ervan Irawan</h3>
+            <p class="mt-1 text-gray-500">Putra dari <br />Bapak Endang sutisna & Ibu Heni</p>
+          </div>
+          <img
+            class="w-40 sm:w-64"
+            src="./img/3.JPG"
+            alt="" />
+        </div>
+        <!-- Countdown Card -->
+        <div class="md:col-span-2">
+          <div class="flex flex-col items-center mb-10">
+            <p class="text-4xl font-parisienne">Countdown to married</p>
+            <h1 class="text-lg font-bold text-gray-800">30 Juni 2024</h1>
+          </div>
+          <div class="flex gap-5 md:gap-10 justify-center">
+            <div class="bg-white/50 p-5 rounded-md">
+              <p
+                id="days"
+                class="text-3xl font-bold">
+                00
+              </p>
+              <span>Hari</span>
+            </div>
+            <div class="bg-white/50 p-5 rounded-md">
+              <p
+                id="hours"
+                class="text-3xl font-bold">
+                00
+              </p>
+              <span>Jam</span>
+            </div>
+            <div class="bg-white/50 p-5 rounded-md">
+              <p
+                id="minutes"
+                class="text-3xl font-bold">
+                00
+              </p>
+              <span>Menit</span>
+            </div>
+            <div class="bg-white/50 p-5 rounded-md">
+              <p
+                id="seconds"
+                class="text-3xl font-bold">
+                00
+              </p>
+              <span>Detik</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Profile -->
+
+    <!-- LoveStory -->
+    <section
+      class="min-h-screen w-full bg-cover bg-blend-overlay bg-[#d4d0cc] bg-center"
+      style="background-image: url('./img/1.JPG')">
+      <div class="container py-10 flex flex-col items-center">
+        <!-- Image -->
+        <div class="w-64 h-96 mb-10">
+          <img
+            src="./img/IMG_0862.JPG"
+            alt="" />
+        </div>
+        <!-- Story -->
+        <div class="grow">
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500">Love Story</h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800">Maret 2023</h3>
+              <p class="mt-1 text-sm text-gray-600">Pertemanan</p>
+              <div class="w-full">
+                <p>Pertama kali kami bertemu dan dikenalkan melalui teman dan kebetulan kami masih memiliki cerita masing-masing. Kedekatan dengan teman-teman kami membuat kami makin sering bertukar cerita satu sama lain dan membuat kami merasa cukup dekat sebagai sahabat yang dapat dipercaya. Namun takdir membuat kami saling berkomunikasi dan bertukar keluh kesah kami masing-masing.</p>
+              </div>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800">April 2023</h3>
+              <p class="mt-1 text-sm text-gray-600">Kecocokan</p>
+              <div class="w-full">
+                <p>Karena begitu dekatnya, kami saling merasa cocok satu sama lain. Maka kami beranikan untuk mengungkapkan perasaan kami setelah 2 bulan perkenalan.</p>
+              </div>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800">Mei 2023</h3>
+              <p class="mt-1 text-sm text-gray-600">Pengujian</p>
+              <div class="w-full">
+                <p>Hari-hari kami lewati bukan tanpa cobaan, terlebih predikat kami yang awalnya “tidak kenal sama sekali” tak dapat diterima oleh beberapa orang. Tapi kami terus menjalankan hubungan kami dengan sepenuh hati</p>
+              </div>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800">Juli 2023</h3>
+              <p class="mt-1 text-sm text-gray-600">Keyakinan</p>
+              <div class="w-full">
+                <p>Setelah beberapa bulan kami saling kenal, semakin membuat kami yakin satu sama lain untuk melangkah lebih jauh. Sehingga kami yakinkan diri sampai di tahap pelamaran</p>
+              </div>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800">Juni 2023</h3>
+              <p class="mt-1 text-sm text-gray-600">Akhir $ Awal</p>
+              <div class="w-full">
+                <p>Akhir dari perjalanan pencarian kami masing-masing sampailah pada tahap kami untuk memulai awal cerita kami bersama sebagai keluarga yang In Syaa Allah kami yakin untuk membangunnya bersama. Semoga langkah kami selalu diberkahi dan diridhakan oleh Allah SWT</p>
+              </div>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+        </div>
+      </div>
+    </section>
+    <!-- End LoveStory -->
+
+    <!-- Gallery -->
+
+    <!-- Gallery -->
+
+    <!-- Footer -->
+    <section class="min-h-screen w-full bg-[#e2dedb]">
+      <div class="container py-10 grid grid-cols-1 gap-4 md:max-w-7xl lg:px-8 lg:py-14">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-span-2">
+            <h1 class="text-4xl font-bold text-center mb-5 font-parisienne">Wedding Gift</h1>
+          </div>
+          <!-- Card -->
+          <div
+            class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+            href="#">
+            <div class="p-4 md:p-5">
+              <div class="flex flex-col sm:flex-row items-center justify-center">
+                <img
+                  class="size-20 object-contain"
+                  src="./img/dana.png"
+                  alt="" />
+
+                <div class="grow flex flex-col items-center justify-center gap-y-2 w-full">
+                  <h3 class="font-semibold text-gray-800 text-center">Nofi Maharani Dewi</h3>
+                  <button class="group-hover:bg-blue-200 py-2 px-4 bg-blue-300 rounded-md">Kirim Dana</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+          <!-- Card -->
+          <div
+            class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+            href="#">
+            <div class="p-4 md:p-5">
+              <div class="flex flex-col sm:flex-row items-center justify-center">
+                <img
+                  class="size-20 object-contain"
+                  src="./img/dana.png"
+                  alt="" />
+
+                <div class="grow flex flex-col items-center justify-center gap-y-2">
+                  <h3 class="font-semibold text-gray-800">Ervan Irawan</h3>
+                  <button class="group-hover:bg-blue-200 py-2 px-4 bg-blue-300 rounded-md">Kirim Dana</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+          <!-- Card -->
+          <div
+            class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+            href="#">
+            <div class="p-4 md:p-5">
+              <div class="flex flex-col sm:flex-row items-center">
+                <img
+                  class="size-20 object-contain"
+                  src="./img/mandiri.png"
+                  alt="" />
+
+                <div class="grow flex flex-col items-center justify-center gap-y-2">
+                  <h3 class="font-semibold text-gray-800">Ervan Irawan</h3>
+                  <p class="group-hover:bg-blue-200 py-2 px-4 bg-blue-300 rounded-md">1730012045606</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+
+        <!-- Google Maps -->
+        <div class="w-full h-auto flex justify-center items-center mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.024869212962!2d107.5393385!3d-6.390792500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e696df00ca8fdab%3A0x8b6b82eebbac5ecd!2sRaihan%20cell!5e0!3m2!1sid!2sid!4v1715937070863!5m2!1sid!2sid"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- End Google Maps -->
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./js/app.js"></script>
+    <script src="../node_modules/preline/dist/preline.js"></script>
+  </body>
+</html>
