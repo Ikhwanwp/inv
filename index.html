@@ -5,8 +5,11 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Wedding</title>
     <!-- Css -->
+    <!-- <link
+      rel="stylesheet"
+      href="./css/output.css" /> -->
     <link
       rel="stylesheet"
       href="./css/build.css" />
@@ -26,7 +29,7 @@
     <!-- Hero -->
     <section
       class="min-h-screen w-full bg-cover bg-blend-overlay bg-[#726b66] bg-center"
-      style="background-image: url('./img/1.JPG')">
+      style="background-image: url('./img/1.1.JPG')">
       <div class="container py-10 text-center">
         <h2 class="font-parisienne font-bold text-white text-7xl">N&E</h2>
         <div class="sm:mt-36 mt-20 text-center">
@@ -53,7 +56,7 @@
     <!-- End Hero -->
 
     <!-- Profile -->
-    <section class="min-h-screen w-full bg-[#e2dedb]">
+    <section class="min-h-screen w-full bg-[#eee2da]">
       <div class="container py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
         <!-- Woman Card -->
         <div class="h-auto w-full flex items-center">
@@ -78,43 +81,45 @@
             alt="" />
         </div>
         <!-- Countdown Card -->
-        <div class="md:col-span-2">
-          <div class="flex flex-col items-center mb-10">
-            <p class="text-4xl font-parisienne">Countdown to married</p>
-            <h1 class="text-lg font-bold text-gray-800">30 Juni 2024</h1>
-          </div>
-          <div class="flex gap-5 md:gap-10 justify-center">
-            <div class="bg-white/50 p-5 rounded-md">
-              <p
-                id="days"
-                class="text-3xl font-bold">
-                00
-              </p>
-              <span>Hari</span>
+        <div class="md:col-span-2 flex justify-center">
+          <div class="max-w-2xl bg-white/35 p-5 rounded-lg">
+            <div class="flex flex-col items-center mb-10">
+              <p class="text-4xl font-parisienne">Countdown to married</p>
+              <h1 class="text-lg font-bold text-gray-800">30 Juni 2024</h1>
             </div>
-            <div class="bg-white/50 p-5 rounded-md">
-              <p
-                id="hours"
-                class="text-3xl font-bold">
-                00
-              </p>
-              <span>Jam</span>
-            </div>
-            <div class="bg-white/50 p-5 rounded-md">
-              <p
-                id="minutes"
-                class="text-3xl font-bold">
-                00
-              </p>
-              <span>Menit</span>
-            </div>
-            <div class="bg-white/50 p-5 rounded-md">
-              <p
-                id="seconds"
-                class="text-3xl font-bold">
-                00
-              </p>
-              <span>Detik</span>
+            <div class="flex gap-5 md:gap-10 justify-center">
+              <div class="bg-white/50 p-5 rounded-md">
+                <p
+                  id="days"
+                  class="text-3xl font-bold">
+                  00
+                </p>
+                <span>Hari</span>
+              </div>
+              <div class="bg-white/50 p-5 rounded-md">
+                <p
+                  id="hours"
+                  class="text-3xl font-bold">
+                  00
+                </p>
+                <span>Jam</span>
+              </div>
+              <div class="bg-white/50 p-5 rounded-md">
+                <p
+                  id="minutes"
+                  class="text-3xl font-bold">
+                  00
+                </p>
+                <span>Menit</span>
+              </div>
+              <div class="bg-white/50 p-5 rounded-md">
+                <p
+                  id="seconds"
+                  class="text-3xl font-bold">
+                  00
+                </p>
+                <span>Detik</span>
+              </div>
             </div>
           </div>
         </div>
@@ -122,19 +127,212 @@
     </section>
     <!-- End Profile -->
 
+    <!-- Doa -->
+    <!-- <section class="min-h-screen w-full py-10 flex justify-center items-center px-4">
+      <div class="container bg-black/10 rounded-lg p-4">
+        <p class="text-2xl">يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ</p>
+        <blockquote class="relative mt-5">
+          <svg
+            class="absolute -top-6 -start-8 size-16 text-gray-100"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <path
+              d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
+              fill="currentColor"></path>
+          </svg>
+
+          <div class="relative z-10">
+            <p class="text-gray-800 sm:text-xl"><em>Wahai manusia, sesungguhnya Kami telah menciptakan kamu dari seorang laki-laki dan perempuan. Kemudian, Kami menjadikan kamu berbangsa-bangsa dan bersuku-suku agar kamu saling mengenal. Sesungguhnya yang paling mulia di antara kamu di sisi Allah adalah orang yang paling bertakwa. Sesungguhnya Allah Maha Mengetahui lagi Maha Teliti. </em></p>
+          </div>
+
+          <footer class="mt-2">
+            <div class="text-base font-semibold text-gray-800">Al-Hujurat : 13</div>
+          </footer>
+        </blockquote>
+      </div>
+    </section> -->
+    <!-- And Doa -->
+
+    <!-- Rundown -->
+    <section class="min-h-screen w-full">
+      <div class="container py-10">
+        <div class="flex flex-col justify-center gap-4 items-center md:flex-row">
+          <div class="w-64 h-96 mb-10 md:basis-2/3 bg-red-300 rounded-lg">
+            <img
+              class="object-cover"
+              src="./img/IMG_0865.JPG"
+              alt="" />
+          </div>
+          <div class="bg-black/10 rounded-lg p-4">
+            <p class="text-2xl">يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ</p>
+            <blockquote class="relative mt-5">
+              <svg
+                class="absolute -top-6 -start-8 size-16 text-gray-100"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
+                  fill="currentColor"></path>
+              </svg>
+
+              <div class="relative z-10">
+                <p class="text-gray-800 sm:text-xl"><em>Wahai manusia, sesungguhnya Kami telah menciptakan kamu dari seorang laki-laki dan perempuan. Kemudian, Kami menjadikan kamu berbangsa-bangsa dan bersuku-suku agar kamu saling mengenal. Sesungguhnya yang paling mulia di antara kamu di sisi Allah adalah orang yang paling bertakwa. Sesungguhnya Allah Maha Mengetahui lagi Maha Teliti. </em></p>
+              </div>
+
+              <footer class="mt-2">
+                <div class="text-base font-semibold text-gray-800">Al-Hujurat : 13</div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- Card Section -->
+        <div class="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+          <!-- Grid -->
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+            <!-- Akad -->
+            <div
+              class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+              href="#">
+              <div class="p-4 md:p-5">
+                <div class="flex">
+                  <svg
+                    class="mt-1 flex-shrink-0 size-5 text-gray-800"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle
+                      cx="9"
+                      cy="7"
+                      r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+
+                  <div class="grow ms-5">
+                    <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Akad</h3>
+                    <p class="text-sm text-gray-500">Minggu, 30 Juni 2024</p>
+                    <p class="text-sm text-gray-500">09.00 WIB</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Akad -->
+
+            <!-- Resepsi -->
+            <div
+              class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+              href="#">
+              <div class="p-4 md:p-5">
+                <div class="flex">
+                  <svg
+                    class="mt-1 flex-shrink-0 size-5 text-gray-800"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle
+                      cx="9"
+                      cy="7"
+                      r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+
+                  <div class="grow ms-5">
+                    <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Resepsi</h3>
+                    <p class="text-sm text-gray-500">Minggu, 30 Juni 2024</p>
+                    <p class="text-sm text-gray-500">10.00 WIB s/d Selesai</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Resepsi -->
+
+            <!-- Alamat -->
+            <div
+              class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+              href="#">
+              <div class="p-4 md:p-5">
+                <div class="flex">
+                  <svg
+                    class="mt-1 flex-shrink-0 size-5 text-gray-800"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z" />
+                    <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
+                  </svg>
+
+                  <div class="grow ms-5">
+                    <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Alamat</h3>
+                    <p class="text-sm text-gray-500">Tanjungrasa Kidul, Kp.Ciawi RT.005/RW.002</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Alamt -->
+          </div>
+          <!-- End Grid -->
+        </div>
+        <!-- End Card Section -->
+
+        <!-- Google Maps -->
+        <div class="w-full h-auto flex justify-center items-center mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.024869212962!2d107.5393385!3d-6.390792500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e696df00ca8fdab%3A0x8b6b82eebbac5ecd!2sRaihan%20cell!5e0!3m2!1sid!2sid!4v1715937070863!5m2!1sid!2sid"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- End Google Maps -->
+      </div>
+    </section>
+    <!-- End Rundown -->
+
     <!-- LoveStory -->
     <section
-      class="min-h-screen w-full bg-cover bg-blend-overlay bg-[#d4d0cc] bg-center"
-      style="background-image: url('./img/1.JPG')">
-      <div class="container py-10 flex flex-col items-center">
+      class="min-h-screen w-full bg-cover bg-blend-overlay bg-[#f0efed] bg-center"
+      style="background-image: url('./img/IMG_0871.JPG')">
+      <div class="container py-10 flex flex-col md:flex-row md:gap-x-10 items-center">
         <!-- Image -->
-        <div class="w-64 h-96 mb-10">
+        <div class="w-64 h-96 mb-10 md:basis-2/3">
           <img
             src="./img/IMG_0862.JPG"
-            alt="" />
+            alt="wedding-image" />
         </div>
         <!-- Story -->
-        <div class="grow">
+        <div class="">
           <!-- Heading -->
           <div class="ps-2 my-2 first:mt-0">
             <h3 class="text-xs font-medium uppercase text-gray-500">Love Story</h3>
@@ -242,7 +440,7 @@
             <!-- Right Content -->
             <div class="grow pt-0.5 pb-8">
               <h3 class="flex gap-x-1.5 font-semibold text-gray-800">Juni 2023</h3>
-              <p class="mt-1 text-sm text-gray-600">Akhir $ Awal</p>
+              <p class="mt-1 text-sm text-gray-600">Akhir & Awal</p>
               <div class="w-full">
                 <p>Akhir dari perjalanan pencarian kami masing-masing sampailah pada tahap kami untuk memulai awal cerita kami bersama sebagai keluarga yang In Syaa Allah kami yakin untuk membangunnya bersama. Semoga langkah kami selalu diberkahi dan diridhakan oleh Allah SWT</p>
               </div>
@@ -256,14 +454,13 @@
     <!-- End LoveStory -->
 
     <!-- Gallery -->
-
     <!-- Gallery -->
 
-    <!-- Footer -->
+    <!-- Wedding Gift -->
     <section class="min-h-screen w-full bg-[#e2dedb]">
       <div class="container py-10 grid grid-cols-1 gap-4 md:max-w-7xl lg:px-8 lg:py-14">
-        <div class="grid grid-cols-2 gap-4">
-          <div class="col-span-2">
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+          <div class="col-span-2 md:col-span-3">
             <h1 class="text-4xl font-bold text-center mb-5 font-parisienne">Wedding Gift</h1>
           </div>
           <!-- Card -->
@@ -324,22 +521,49 @@
           </div>
           <!-- End Card -->
         </div>
+        <div>
+          <!-- Kirim Hadiah -->
+          <div
+            class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition mb-5"
+            href="#">
+            <div class="p-4 md:p-5">
+              <div class="flex flex-col sm:flex-row items-center">
+                <img
+                  class="size-20 object-contain"
+                  src=""
+                  alt="belum ada gambar" />
 
-        <!-- Google Maps -->
-        <div class="w-full h-auto flex justify-center items-center mt-4">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.024869212962!2d107.5393385!3d-6.390792500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e696df00ca8fdab%3A0x8b6b82eebbac5ecd!2sRaihan%20cell!5e0!3m2!1sid!2sid!4v1715937070863!5m2!1sid!2sid"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="grow flex flex-col items-center justify-center gap-y-2">
+                  <h3 class="font-semibold text-gray-800">Kirim Hadiah</h3>
+                  <h3 class="font-semibold text-gray-800">Penerima: Nofi Maharani Dewi</h3>
+                  <p class="group-hover:bg-blue-200 py-2 px-4 bg-blue-300 rounded-md">Tanjungrasa Kidul, Kp.Ciawi RT.005/RW.002</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ucapan dan Doa -->
+          <div
+            class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+            href="#">
+            <div class="p-4 md:p-5">
+              <div class="flex flex-col sm:flex-row items-center">
+                <img
+                  class="size-10 object-contain"
+                  src="./img/whatssapp.png"
+                  alt="" />
+
+                <div class="grow flex flex-col items-center justify-center gap-y-2">
+                  <h3 class="font-semibold text-gray-800">Ucapan dan Doa</h3>
+                  <button class="bg-blue-400 w-48 py-2 rounded-lg">Whatsapp <br />Nofi Maharani Dewi</button>
+                  <button class="bg-blue-400 w-48 py-2 rounded-lg">Whatsapp <br />Ervan Irawan</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- End Google Maps -->
       </div>
     </section>
-    <!-- End Footer -->
+    <!-- End Wedding Gift -->
     <script src="./js/app.js"></script>
     <script src="../node_modules/preline/dist/preline.js"></script>
   </body>
